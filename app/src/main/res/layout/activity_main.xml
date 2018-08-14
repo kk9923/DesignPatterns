@@ -8,10 +8,18 @@
     tools:context=".MainActivity">
 
     <Button
+        android:textAllCaps="false"
         android:id="@+id/simpleFactoryActivity"
         android:layout_width="match_parent"
         android:layout_height="40dp"
         android:text="SimpleFactoryActivity"
          />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/factoryMethodActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="FactoryMethodActivity"
+        />
 
 </LinearLayout>

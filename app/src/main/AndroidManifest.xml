@@ -16,7 +16,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SimpleFactoryPattern.SimpleFactoryActivity"></activity>
+        <activity android:name=".SimpleFactoryPattern.SimpleFactoryActivity" />
+        <activity android:name=".FactoryMethodPattern.FactoryMethodActivity"></activity>
     </application>
 
 </manifest>
