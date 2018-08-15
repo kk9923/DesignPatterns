@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kx.designpatterns.AbstractFactoryPattern.AbstractFactoryActivity;
 import com.kx.designpatterns.FactoryMethodPattern.FactoryMethodActivity;
 import com.kx.designpatterns.SimpleFactoryPattern.SimpleFactoryActivity;
 
@@ -17,16 +18,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         setContentView(R.layout.activity_main);
         findViewById(R.id.simpleFactoryActivity).setOnClickListener(this);
         findViewById(R.id.factoryMethodActivity).setOnClickListener(this);
+        findViewById(R.id.abstractFactoryActivity).setOnClickListener(this);
     }
 
     @Override
     public void onClick(View view) {
         switch (view.getId()){
             case R.id.simpleFactoryActivity :
-                startActivity(SimpleFactoryActivity.class);
+                 startActivity(SimpleFactoryActivity.class);
                 break;
                 case R.id.factoryMethodActivity :
-                startActivity(FactoryMethodActivity.class);
+                 startActivity(FactoryMethodActivity.class);
+                break;
+                case R.id.abstractFactoryActivity :
+                 startActivity(AbstractFactoryActivity.class);
                 break;
         }
     }

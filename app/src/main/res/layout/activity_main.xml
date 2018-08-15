@@ -21,5 +21,12 @@
         android:layout_height="40dp"
         android:text="FactoryMethodActivity"
         />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/abstractFactoryActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="AbstractFactoryActivity"
+        />
 
 </LinearLayout>
