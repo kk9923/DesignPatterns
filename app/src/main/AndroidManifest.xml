@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".SimpleFactoryPattern.SimpleFactoryActivity" />
         <activity android:name=".FactoryMethodPattern.FactoryMethodActivity" />
-        <activity android:name=".AbstractFactoryPattern.AbstractFactoryActivity"></activity>
+        <activity android:name=".AbstractFactoryPattern.AbstractFactoryActivity" />
+        <activity android:name=".BuilderPattern.BuilderActivity"></activity>
     </application>
 
 </manifest>

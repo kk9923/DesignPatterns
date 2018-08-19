@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.kx.designpatterns.AbstractFactoryPattern.AbstractFactoryActivity;
+import com.kx.designpatterns.BuilderPattern.BuilderActivity;
 import com.kx.designpatterns.FactoryMethodPattern.FactoryMethodActivity;
 import com.kx.designpatterns.SimpleFactoryPattern.SimpleFactoryActivity;
 
@@ -19,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.simpleFactoryActivity).setOnClickListener(this);
         findViewById(R.id.factoryMethodActivity).setOnClickListener(this);
         findViewById(R.id.abstractFactoryActivity).setOnClickListener(this);
+        findViewById(R.id.builderActivity).setOnClickListener(this);
     }
 
     @Override
@@ -32,6 +34,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
                 case R.id.abstractFactoryActivity :
                  startActivity(AbstractFactoryActivity.class);
+                break;
+                case R.id.builderActivity :
+                 startActivity(BuilderActivity.class);
                 break;
         }
     }
