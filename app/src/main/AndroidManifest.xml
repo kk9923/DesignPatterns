@@ -16,10 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SimpleFactoryPattern.SimpleFactoryActivity" />
-        <activity android:name=".FactoryMethodPattern.FactoryMethodActivity" />
-        <activity android:name=".AbstractFactoryPattern.AbstractFactoryActivity" />
-        <activity android:name=".BuilderPattern.BuilderActivity"></activity>
+        <activity android:name=".CreatorPattern.SimpleFactoryPattern.SimpleFactoryActivity" />
+        <activity android:name=".CreatorPattern.FactoryMethodPattern.FactoryMethodActivity" />
+        <activity android:name=".CreatorPattern.AbstractFactoryPattern.AbstractFactoryActivity" />
+        <activity android:name=".CreatorPattern.BuilderPattern.BuilderActivity" />
+        <activity android:name=".CreatorPattern.PrototypePattern.PrototypePatternActivity"></activity>
     </application>
 
 </manifest>
