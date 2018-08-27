@@ -16,11 +16,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CreatorPattern.SimpleFactoryPattern.SimpleFactoryActivity" />
-        <activity android:name=".CreatorPattern.FactoryMethodPattern.FactoryMethodActivity" />
-        <activity android:name=".CreatorPattern.AbstractFactoryPattern.AbstractFactoryActivity" />
-        <activity android:name=".CreatorPattern.BuilderPattern.BuilderActivity" />
-        <activity android:name=".CreatorPattern.PrototypePattern.PrototypePatternActivity"></activity>
+        <activity
+            android:name=".CreatorPattern$SimpleFactoryPattern.SimpleFactoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreatorPattern$FactoryMethodPattern.FactoryMethodActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreatorPattern$AbstractFactoryPattern.AbstractFactoryActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreatorPattern$BuilderPattern.BuilderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CreatorPattern$PrototypePattern.PrototypePatternActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StructuralPattern.AdapterPattern.AdapterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".StructuralPattern.WrapperPattern.WrapperActivity"></activity>
     </application>
 
 </manifest>

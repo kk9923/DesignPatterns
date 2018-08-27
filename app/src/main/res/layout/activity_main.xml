@@ -42,5 +42,19 @@
         android:layout_height="40dp"
         android:text="PrototypeActivity"
         />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/adapterActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="AdapterActivity"
+        />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/wrapperActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="WrapperActivity"
+        />
 
 </LinearLayout>

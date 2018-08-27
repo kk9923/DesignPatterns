@@ -10,6 +10,8 @@ import com.kx.designpatterns.CreatorPattern.BuilderPattern.BuilderActivity;
 import com.kx.designpatterns.CreatorPattern.FactoryMethodPattern.FactoryMethodActivity;
 import com.kx.designpatterns.CreatorPattern.PrototypePattern.PrototypePatternActivity;
 import com.kx.designpatterns.CreatorPattern.SimpleFactoryPattern.SimpleFactoryActivity;
+import com.kx.designpatterns.StructuralPattern.AdapterPattern.AdapterActivity;
+import com.kx.designpatterns.StructuralPattern.WrapperPattern.WrapperActivity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
@@ -22,6 +24,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.abstractFactoryActivity).setOnClickListener(this);
         findViewById(R.id.builderActivity).setOnClickListener(this);
         findViewById(R.id.prototypeActivity).setOnClickListener(this);
+        findViewById(R.id.adapterActivity).setOnClickListener(this);
+        findViewById(R.id.wrapperActivity).setOnClickListener(this);
     }
 
     @Override
@@ -41,6 +45,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
                 case R.id.prototypeActivity :
                  startActivity(PrototypePatternActivity.class);
+                break;
+                case R.id.adapterActivity :
+                 startActivity(AdapterActivity.class);
+                break;
+                case R.id.wrapperActivity :
+                 startActivity(WrapperActivity.class);
                 break;
         }
     }
