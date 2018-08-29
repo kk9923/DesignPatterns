@@ -11,6 +11,7 @@ import com.kx.designpatterns.CreatorPattern.FactoryMethodPattern.FactoryMethodAc
 import com.kx.designpatterns.CreatorPattern.PrototypePattern.PrototypePatternActivity;
 import com.kx.designpatterns.CreatorPattern.SimpleFactoryPattern.SimpleFactoryActivity;
 import com.kx.designpatterns.StructuralPattern.AdapterPattern.AdapterActivity;
+import com.kx.designpatterns.StructuralPattern.FlyWeightPattern.FlyWeightActivity;
 import com.kx.designpatterns.StructuralPattern.ProxyPattern.ProxyActivity;
 import com.kx.designpatterns.StructuralPattern.WrapperPattern.WrapperActivity;
 
@@ -28,6 +29,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.adapterActivity).setOnClickListener(this);
         findViewById(R.id.wrapperActivity).setOnClickListener(this);
         findViewById(R.id.proxyActivity).setOnClickListener(this);
+        findViewById(R.id.flyWeightActivity).setOnClickListener(this);
     }
 
     @Override
@@ -56,6 +58,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
                 case R.id.proxyActivity :
                  startActivity(ProxyActivity.class);
+                break;
+                case R.id.flyWeightActivity :
+                 startActivity(FlyWeightActivity.class);
                 break;
         }
     }
