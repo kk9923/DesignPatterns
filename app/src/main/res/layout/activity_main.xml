@@ -70,4 +70,11 @@
         android:layout_height="40dp"
         android:text="FlyWeightActivity"
         />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/facadeActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="FacadeActivity"
+        />
 </LinearLayout>
