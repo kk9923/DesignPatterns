@@ -77,4 +77,11 @@
         android:layout_height="40dp"
         android:text="FacadeActivity"
         />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/templateMethodActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="TemplateMethodActivity"
+        />
 </LinearLayout>
