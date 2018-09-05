@@ -17,19 +17,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".CreatorPattern$SimpleFactoryPattern.SimpleFactoryActivity"
+            android:name=".CreatorPattern.SimpleFactoryPattern.SimpleFactoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreatorPattern$FactoryMethodPattern.FactoryMethodActivity"
+            android:name=".CreatorPattern.FactoryMethodPattern.FactoryMethodActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreatorPattern$AbstractFactoryPattern.AbstractFactoryActivity"
+            android:name=".CreatorPattern.AbstractFactoryPattern.AbstractFactoryActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreatorPattern$BuilderPattern.BuilderActivity"
+            android:name=".CreatorPattern.BuilderPattern.BuilderActivity"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CreatorPattern$PrototypePattern.PrototypePatternActivity"
+            android:name=".CreatorPattern.PrototypePattern.PrototypePatternActivity"
             android:screenOrientation="portrait" />
         <activity
             android:name=".StructuralPattern.AdapterPattern.AdapterActivity"
@@ -38,7 +38,8 @@
         <activity android:name=".StructuralPattern.ProxyPattern.ProxyActivity" />
         <activity android:name=".StructuralPattern.FlyWeightPattern.FlyWeightActivity" />
         <activity android:name=".StructuralPattern.FacadePattern.FacadeActivity" />
-        <activity android:name=".BehavioralPattern.TemplateMethod.TemplateMethodActivity"></activity>
+        <activity android:name=".BehavioralPattern.TemplateMethod.TemplateMethodActivity" />
+        <activity android:name=".BehavioralPattern.ObserverPattern.ObserverActivity"></activity>
     </application>
 
 </manifest>

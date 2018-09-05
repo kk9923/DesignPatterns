@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.kx.designpatterns.BehavioralPattern.ObserverPattern.ObserverActivity;
 import com.kx.designpatterns.BehavioralPattern.TemplateMethod.TemplateMethodActivity;
 import com.kx.designpatterns.CreatorPattern.AbstractFactoryPattern.AbstractFactoryActivity;
 import com.kx.designpatterns.CreatorPattern.BuilderPattern.BuilderActivity;
@@ -34,6 +35,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.flyWeightActivity).setOnClickListener(this);
         findViewById(R.id.facadeActivity).setOnClickListener(this);
         findViewById(R.id.templateMethodActivity).setOnClickListener(this);
+        findViewById(R.id.observerActivity).setOnClickListener(this);
     }
 
     @Override
@@ -71,6 +73,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
                 case R.id.templateMethodActivity :
                  startActivity(TemplateMethodActivity.class);
+                break;
+                case R.id.observerActivity :
+                 startActivity(ObserverActivity.class);
                 break;
         }
     }
