@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 
 import com.kx.designpatterns.BehavioralPattern.ObserverPattern.ObserverActivity;
+import com.kx.designpatterns.BehavioralPattern.StrategyPattern.StrategyActivity;
 import com.kx.designpatterns.BehavioralPattern.TemplateMethod.TemplateMethodActivity;
 import com.kx.designpatterns.CreatorPattern.AbstractFactoryPattern.AbstractFactoryActivity;
 import com.kx.designpatterns.CreatorPattern.BuilderPattern.BuilderActivity;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.facadeActivity).setOnClickListener(this);
         findViewById(R.id.templateMethodActivity).setOnClickListener(this);
         findViewById(R.id.observerActivity).setOnClickListener(this);
+        findViewById(R.id.strategyActivity).setOnClickListener(this);
     }
 
     @Override
@@ -76,6 +78,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
                 case R.id.observerActivity :
                  startActivity(ObserverActivity.class);
+                break;
+                case R.id.strategyActivity :
+                 startActivity(StrategyActivity.class);
                 break;
         }
     }

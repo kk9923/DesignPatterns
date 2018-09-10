@@ -34,12 +34,21 @@
         <activity
             android:name=".StructuralPattern.AdapterPattern.AdapterActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".StructuralPattern.WrapperPattern.WrapperActivity" />
-        <activity android:name=".StructuralPattern.ProxyPattern.ProxyActivity" />
-        <activity android:name=".StructuralPattern.FlyWeightPattern.FlyWeightActivity" />
-        <activity android:name=".StructuralPattern.FacadePattern.FacadeActivity" />
-        <activity android:name=".BehavioralPattern.TemplateMethod.TemplateMethodActivity" />
-        <activity android:name=".BehavioralPattern.ObserverPattern.ObserverActivity"></activity>
+        <activity android:name=".StructuralPattern.WrapperPattern.WrapperActivity"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".StructuralPattern.ProxyPattern.ProxyActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StructuralPattern.FlyWeightPattern.FlyWeightActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".StructuralPattern.FacadePattern.FacadeActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BehavioralPattern.TemplateMethod.TemplateMethodActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BehavioralPattern.ObserverPattern.ObserverActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".BehavioralPattern.StrategyPattern.StrategyActivity"
+            android:screenOrientation="portrait"/>
     </application>
 
 </manifest>

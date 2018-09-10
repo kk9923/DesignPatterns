@@ -92,4 +92,11 @@
         android:layout_height="40dp"
         android:text="ObserverActivity"
         />
+    <Button
+        android:textAllCaps="false"
+        android:id="@+id/strategyActivity"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="StrategyActivity"
+        />
 </LinearLayout>
